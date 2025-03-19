@@ -3,8 +3,11 @@ import './List.css'
 
 const List = () => {
   return (
-    <div>List</div>
+    <div>
+      List
+    </div>
   )
 }
+import './List.css'
 
 export default List
