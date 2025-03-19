@@ -1,26 +1,24 @@
 import React from 'react'
 import Navbar from './components/navbar/navbar'
 import Sidebar from './components/sidebar/sidebar'
-import Add from './screens/Add/Add'
-import List from './screens/List/List'
-import Orders from './screens/Orders/Orders'
-import {Routes, Route} from 'react-router-dom'
-import './App.css'
+import {Routes,Route} from 'react-router-dom'
+import Add from './screens/addscreen/addscreen'
+import Orders from './screens/orderscreen/orderscreen'
+import List from './screens/listscreen/listscreen'
+
 const App = () => {
   return (
     <div className='app'>
-      <Navbar />
+      <Navbar/>
       <hr />
-      <div className='app-content'>
-        <Sidebar />
+      <div className="app-content">
+        <Sidebar/>
         <Routes>
-          <Route path='/' element={<Add />}></Route>
-          <Route path='/add' element={<Add />}></Route>
-          <Route path='/list' element={<List />}></Route>
-          <Route path='/orders' element={<Orders />}></Route>
-
+          <Route path ="/" element={<Add/>}></Route>
+          <Route path ="/add" element={<Add/>}></Route>
+          <Route path='/list' element={<List/>}></Route>
+          <Route path='/orders' element={<Orders/>}></Route>
         </Routes>
-
       </div>
     </div>
   )
