@@ -3,11 +3,8 @@ import './Orders.css'
 
 const Orders = () => {
   return (
-    <div>
-      Orders
-    </div>
+    <div>Orders</div>
   )
 }
-import './Orders.css'
 
 export default Orders

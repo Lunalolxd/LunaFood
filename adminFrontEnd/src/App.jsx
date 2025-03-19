@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './components/navbar/navbar'
-import Sidebar from './components/sidebar/sidebar'
-import {Routes,Route} from 'react-router-dom'
-import Add from './screens/addscreen/addscreen'
-import Orders from './screens/orderscreen/orderscreen'
-import List from './screens/listscreen/listscreen'
+import Navbar from './components/navbar/Navbar';
+import Sidebar from './components/sidebar/Sidebar';
+import { Routes, Route } from 'react-router-dom';
+import Add from './screens/Add/Add';
+import Orders from './screens/Orders/Orders';
+import List from './screens/List/List';
 
 const App = () => {
   return (
